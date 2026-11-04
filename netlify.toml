@@ -1,0 +1,9 @@
+[build]
+  publish = "."
+
+# On sert index.html pour toute adresse inconnue
+# afin d'éviter l'erreur 404.
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
